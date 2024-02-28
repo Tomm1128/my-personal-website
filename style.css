@@ -1,13 +1,36 @@
 body {
     background: white;
-    text-align:center;
   }
 
+body::before{
+    content: "";
+    background-image: url(images/wall_stock_img.jpg);
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;  
+}
+
 #header{
-    background-color: white;
     width: 100%;
     height: 10px;
     text-align: center;
+}
+
+#personalImage{
+    position: absolute;
+    top: 75px;
+    left: 1150px;
+}
+
+#about{
+    width: 50%;
+    margin: auto;
+    text-align:center;
+    font-weight: bold;
 }
 
 .topnav {
@@ -39,3 +62,24 @@ body {
     display: none;
   }
   
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
