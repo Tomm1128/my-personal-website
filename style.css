@@ -4,14 +4,15 @@ body {
 
 body::before{
     content: "";
-    background-image: url(images/wall_stock_img.jpg);
-    opacity: 0.5;
+    background-image: url(images/resume_section.jpg);
+    opacity: 0.7;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
     position: absolute;
-    z-index: -1;  
+    z-index: -1; 
+    height: 1000px
 }
 
 #header{
@@ -19,12 +20,18 @@ body::before{
     height: 10px;
     text-align: center;
     padding-bottom: 25px;
+    font-family: "Roboto", sans-serif;
 }
 
 #resume{
     text-align: center;
-    background-image: url(images/ink_stock_img.jpg);
-    height: 700px;
+    background-image: url(images/wall_stock_img.jpg);
+    height: 600px;
+    width: 1300px;
+    margin: auto;
+    box-shadow: 10px 10px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
 }
 
 #blocks{
@@ -33,11 +40,11 @@ body::before{
     text-align: center;
     padding: 0px 50px;
     box-sizing: border-box;
-    background: white;
+    background: rgb(242, 244, 247);
     height: 200px;
     margin: 50px;
     box-shadow: 10px 10px;
-    margin-top: 200px;
+    margin-top: 100px;
 }
 
 #personalImage{
@@ -52,11 +59,13 @@ body::before{
     text-align:center;
     font-weight: bold;
     padding-bottom: 50px;
+    font-family: "Roboto", sans-serif;
 }
 
 .topnav {
     background-color: #333;
     overflow: hidden;
+    font-family: "Roboto", sans-serif;
   }
 
   .topnav a {
@@ -75,7 +84,7 @@ body::before{
   }
 
   .topnav a.active {
-    background-color: #3FD0EA;
+    background-color: #17525c;
     color: white;
   }
 
@@ -104,3 +113,76 @@ body::before{
       text-align: left;
     }
   }
+
+  .roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
