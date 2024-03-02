@@ -9,7 +9,7 @@ document.getElementById("about").appendChild(h2);
 
 document.getElementById("about").appendChild(h3);
 
-function responsive() {
+function responsiveNav() {
     var x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
       x.className += " responsive";
